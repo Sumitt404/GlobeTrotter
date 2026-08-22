@@ -1,0 +1,12 @@
+# Backend
+globetrotter-backend/.env
+__pycache__/
+*.pyc
+
+# Frontend
+GlobeTrotter-frontend/.env
+GlobeTrotter-frontend/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
