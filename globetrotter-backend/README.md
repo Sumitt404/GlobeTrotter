@@ -37,10 +37,6 @@ Set the frontend `.env` to:
 VITE_API_URL=http://localhost:8000/api
 ```
 
-## AI
-
-Set `OPENAI_API_KEY`. Without it, AI endpoints return HTTP 503 rather than silently using fake AI output.
-
 ## Notes
 
 - Production database schema is migration-driven; startup does not auto-create tables.
