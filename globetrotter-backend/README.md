@@ -40,6 +40,5 @@ VITE_API_URL=http://localhost:8000/api
 ## Notes
 
 - Production database schema is migration-driven; startup does not auto-create tables.
-- AI output is validated with Pydantic after JSON generation.
 - JWT-protected routes enforce trip ownership.
 - Public trip responses exclude private user data.
